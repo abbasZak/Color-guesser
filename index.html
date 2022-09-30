@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carousel</title>
+    <title>Color Guessing game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <script src="app.js"></script>   
+    <div class="container">
+        <header>
+            <h1>Color Guesser</h1>
+            <h2 id="rgb" class="rgb">Color: </h2>
+        </header>
+
+        <div class="items">
+            <div class="item1" id="item1"></div>
+            <div class="item2" id="item2"></div>
+            <div class="item3" id="item3"></div>
+        </div>
+
+        <div class="Start">
+            <button class="start" id="start" onclick="start()">Start</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
